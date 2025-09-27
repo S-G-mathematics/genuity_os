@@ -18,7 +18,7 @@ Kaggle supports installing packages directly from GitHub. Add this to your Kaggl
 
 ```python
 # Install Genuity OS in Kaggle
-!pip install git+https://github.com/yourusername/genuity_os.git
+!pip install git+https://github.com/S-G-mathematics/genuity_os.git
 ```
 
 ### For Local Development
