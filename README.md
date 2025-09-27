@@ -21,22 +21,6 @@ Kaggle supports installing packages directly from GitHub. Add this to your Kaggl
 !pip install git+https://github.com/S-G-mathematics/genuity_os.git
 ```
 
-### For Local Development
-
-Install from GitHub:
-
-```bash
-pip install git+https://github.com/yourusername/genuity_os.git
-```
-
-Or clone and install locally:
-
-```bash
-git clone https://github.com/yourusername/genuity_os.git
-cd genuity_os
-pip install -e .
-```
-
 ### Kaggle Notebook Example
 
 ```python
@@ -46,7 +30,7 @@ pip install -e .
 # Cell 2: Import and use
 import pandas as pd
 import numpy as np
-from genuity_os.core_generator.ctgan.ctgan.utils.api import CTGANAPI
+from genuity_os.core_generator.ctgan.ctgan import CTGANAPI
 
 # Your code here...
 ```
