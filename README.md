@@ -1,4 +1,4 @@
-# Genuity OS
+# Genuity Open Strategy
 
 A comprehensive synthetic tabular data generation framework with multiple state-of-the-art algorithms, advanced data preprocessing, and differential privacy support.
 
@@ -72,7 +72,6 @@ from genuity_os.data_processor.data_preprocess import TabularPreprocessor
 preprocessor = TabularPreprocessor(
     scaler_type="standard",
     encoding_strategy="onehot",
-    normalize_data=True
 )
 
 # Fit and transform data
