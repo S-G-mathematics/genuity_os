@@ -34,7 +34,7 @@ class TabularPreprocessor:
         n_pca_components: int = None,
         scaler_type: str = "standard",  # 'standard', 'minmax', 'robust', 'maxabs', or None
         imputation_strategy: str = "auto",  # 'auto', 'mean', 'median', 'mode', 'ml'
-        encoding_strategy: str = "onehot",  # 'onehot', 'ordinal', or None
+        encoding_strategy: str = "onehot",  # 'onehot', or None
         random_state: int = 42,
         verbose: bool = True,
     ):
