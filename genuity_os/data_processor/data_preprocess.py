@@ -10,7 +10,6 @@ from sklearn.preprocessing import (
     RobustScaler,
     MaxAbsScaler,
     OneHotEncoder,
-    OrdinalEncoder,
 )
 import category_encoders as ce
 
